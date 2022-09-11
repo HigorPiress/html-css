@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+    <style> mark{background-color: black;} </style> <!--Vai servir para todos os MARKS da página a cor selecionada-->
+</head>
+<body>
+    <h1>Principais Formatações</h1>,
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase temos um <b>Termo em negrito</b>usando a tag B (não semântica)</p><!--não tem significado, só deixa negrito, então não semântica-->
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usanda a tag STRONG (semântica)</p> <!--é semântico pq tem significado,como diz a frase ' temos um destaque' além de dar o negrito que quero, deixa um sentido. é forte strong , ele é um destaque-->
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica) </p>
+    <!--Abreviação de tag para evelopar crlt shift p-->
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark style="background-color: indigo;">um texto marcado</mark> usando a tag MARK.</p><!--Style é CSS3, pq já muda o formado/style.-->    
+    <p>E no outro parágrafo, temos <mark>outro temos marcado</mark> no final. </p>
+    <!--Caso não use o style color e a cor desejada, o padrão de cor será amarelho. Quando ter vários MARK, e querer tudo de uma cor só sera adionado a cor desejada no cabeçario-->
+    <h2>Texto Grande e pequeno</h2>
+    <p>Estamos criando um texto grande e um <small>pequeno</small> nesse parágrafo.</p><!--tag big não é mais usada-->
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p><!--INS tem sentido texto inserido por isso é semântica-->
+    <P>Existe também o <u>sublinhado</u> com a tag U (não semântica)</P><!--U não tem sentido só forma, se eu quiser marcar um texto como inserido tem mais sentido usar INS, não tag U-->
+    <h2>Texto Sobrescrito</h2>
+    <p> Para inserir coisas como x<sup>20</sup>+3</p>
+    <h2>Texto Subscrito</h2>
+    <p>Para inserir coisas como H<sub>2</sub>0</p>
+</body>
+</html>
