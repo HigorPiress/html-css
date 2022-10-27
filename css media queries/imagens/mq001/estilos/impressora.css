@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Estilos para impressora*/
+
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+html {
+    font-family: 'Courier New', Courier, monospace; /* Letras mais espaçadas e melhor para ler*/
+    font-size: 1.5em;
+    line-height: 1.5em; /* espaçamento das letras*/
+}
+
+menu {
+    display: none; /* display none faz com que não apareça ou desative a tag selecionada*/
+}
+
+article {
+    width: 100%;
+}
+
+article::after { /*after = depois*/
+    content: 'Esse artigo foi impresso através do site wwww.sitecursoemvideo.com'; /*deixa uma mensagem*/
+}
