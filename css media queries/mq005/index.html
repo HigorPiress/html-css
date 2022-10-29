@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet"href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    
+    
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opcão 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit culpa molestias quidem eveniet architecto! Enim exercitationem placeat unde minus, reprehenderit illo ex quia praesentium esse, voluptate id porro sint consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque expedita incidunt quo magni voluptates deleniti fugit veritatis illum cumque culpa similique aliquam, rerum nam possimus animi debitis? Rerum, possimus facere.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque iure quod corrupti, similique, ab necessitatibus facilis doloremque dolores sint placeat repellat? Error asperiores iste voluptatum explicabo excepturi perspiciatis eligendi sint!</p>
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam at recusandae vero. Expedita, voluptas architecto ipsum libero voluptatibus esse, dicta alias repellat aperiam recusandae tempora, placeat est fugiat ullam. Enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti expedita laudantium alias esse laboriosam totam et. Quam, voluptate labore nesciunt tempora voluptatem, fugit accusantium dolor eligendi blanditiis excepturi sed maiores!</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
